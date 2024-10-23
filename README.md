@@ -17,11 +17,11 @@ I plan to update this repository as Ben's videos progress. I'd like to get VGA o
 
 ## A few images
 
-![Initial stages of the boot process](/images/vivado_sim_boot_process,jpg)
+![Initial stages of the boot process](/images/vivado_sim_boot_process.jpg)
 
 ![UART data really is so much slower than the rest of the system!](/images/be6502_fpga_wozmon.jpg)
 
-![MSBasic running with terminal output](/images/be6502_fpga_basic,jpg)
+![MSBasic running with terminal output](/images/be6502_fpga_basic.jpg)
 
 ## Differences from Ben's Design
 
