@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="be6502_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="be6502_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="3,001.000001 us"></ZoomEndTime>
+      <Cursor1Time time="1,756.245000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="group" fp_name="group427">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/board_resetn">
+         <obj_property name="ElementShortName">board_resetn</obj_property>
+         <obj_property name="ObjectShortName">board_resetn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/board_clk50mhz">
+         <obj_property name="ElementShortName">board_clk50mhz</obj_property>
+         <obj_property name="ObjectShortName">board_clk50mhz</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/address_bus_unregistered">
+         <obj_property name="ElementShortName">address_bus_unregistered[15:0]</obj_property>
+         <obj_property name="ObjectShortName">address_bus_unregistered[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/address_bus">
+         <obj_property name="ElementShortName">address_bus[15:0]</obj_property>
+         <obj_property name="ObjectShortName">address_bus[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu_data_in">
+         <obj_property name="ElementShortName">cpu_data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu_data_out">
+         <obj_property name="ElementShortName">cpu_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cpu_data_out[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu_irq_in">
+         <obj_property name="ElementShortName">cpu_irq_in</obj_property>
+         <obj_property name="ObjectShortName">cpu_irq_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu_write_en">
+         <obj_property name="ElementShortName">cpu_write_en</obj_property>
+         <obj_property name="ObjectShortName">cpu_write_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/VIA_CS">
+         <obj_property name="ElementShortName">VIA_CS</obj_property>
+         <obj_property name="ObjectShortName">VIA_CS</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/ROM_CS">
+         <obj_property name="ElementShortName">ROM_CS</obj_property>
+         <obj_property name="ObjectShortName">ROM_CS</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/RAM_CS">
+         <obj_property name="ElementShortName">RAM_CS</obj_property>
+         <obj_property name="ObjectShortName">RAM_CS</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/UART_CS">
+         <obj_property name="ElementShortName">UART_CS</obj_property>
+         <obj_property name="ObjectShortName">UART_CS</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/RND_CS">
+         <obj_property name="ElementShortName">RND_CS</obj_property>
+         <obj_property name="ObjectShortName">RND_CS</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/TIME_CS">
+         <obj_property name="ElementShortName">TIME_CS</obj_property>
+         <obj_property name="ObjectShortName">TIME_CS</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/rom_data_out">
+         <obj_property name="ElementShortName">rom_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/ram_data_out">
+         <obj_property name="ElementShortName">ram_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via_data_out">
+         <obj_property name="ElementShortName">via_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">via_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/uart_data_out">
+         <obj_property name="ElementShortName">uart_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">uart_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/rnd_data_out">
+         <obj_property name="ElementShortName">rnd_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rnd_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/time_data_out">
+         <obj_property name="ElementShortName">time_data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">time_data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/uart_rx_in">
+         <obj_property name="ElementShortName">uart_rx_in</obj_property>
+         <obj_property name="ObjectShortName">uart_rx_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/uart_tx_out">
+         <obj_property name="ElementShortName">uart_tx_out</obj_property>
+         <obj_property name="ObjectShortName">uart_tx_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group520">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/resetn">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/ADDR">
+         <obj_property name="ElementShortName">ADDR</obj_property>
+         <obj_property name="ObjectShortName">ADDR</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/WE">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/gs_uart/DI">
+         <obj_property name="ElementShortName">DI[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DI[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/gs_uart/DO">
+         <obj_property name="ElementShortName">DO[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DO[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/IRQ">
+         <obj_property name="ElementShortName">IRQ</obj_property>
+         <obj_property name="ObjectShortName">IRQ</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_rxd">
+         <obj_property name="ElementShortName">uart_rxd</obj_property>
+         <obj_property name="ObjectShortName">uart_rxd</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_txd">
+         <obj_property name="ElementShortName">uart_txd</obj_property>
+         <obj_property name="ObjectShortName">uart_txd</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/gs_uart/uart_rx_data">
+         <obj_property name="ElementShortName">uart_rx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_rx_valid">
+         <obj_property name="ElementShortName">uart_rx_valid</obj_property>
+         <obj_property name="ObjectShortName">uart_rx_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_rx_valid_r">
+         <obj_property name="ElementShortName">uart_rx_valid_r</obj_property>
+         <obj_property name="ObjectShortName">uart_rx_valid_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_rx_break">
+         <obj_property name="ElementShortName">uart_rx_break</obj_property>
+         <obj_property name="ObjectShortName">uart_rx_break</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_rx_break_r">
+         <obj_property name="ElementShortName">uart_rx_break_r</obj_property>
+         <obj_property name="ObjectShortName">uart_rx_break_r</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/gs_uart/uart_tx_data">
+         <obj_property name="ElementShortName">uart_tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">uart_tx_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_tx_busy">
+         <obj_property name="ElementShortName">uart_tx_busy</obj_property>
+         <obj_property name="ObjectShortName">uart_tx_busy</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/gs_uart/uart_tx_en">
+         <obj_property name="ElementShortName">uart_tx_en</obj_property>
+         <obj_property name="ObjectShortName">uart_tx_en</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/gs_uart/status_register">
+         <obj_property name="ElementShortName">status_register[7:0]</obj_property>
+         <obj_property name="ObjectShortName">status_register[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1094">
+      <obj_property name="label">LFSR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/be6502_tb/dut/lfsr/DO">
+         <obj_property name="ElementShortName">DO[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DO[7:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/lfsr/lfsr">
+         <obj_property name="ElementShortName">lfsr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">lfsr[15:0]</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2185">
+      <obj_property name="label">TIMER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/timer/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/timer/resetn">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/timer/ADDR">
+         <obj_property name="ElementShortName">ADDR[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/timer/DO">
+         <obj_property name="ElementShortName">DO[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DO[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/timer/counter">
+         <obj_property name="ElementShortName">counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/timer/tick_divider">
+         <obj_property name="ElementShortName">tick_divider[11:0]</obj_property>
+         <obj_property name="ObjectShortName">tick_divider[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/timer/timertick">
+         <obj_property name="ElementShortName">timertick</obj_property>
+         <obj_property name="ObjectShortName">timertick</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group359">
+      <obj_property name="label">VIA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/via6522/cs">
+         <obj_property name="ElementShortName">cs</obj_property>
+         <obj_property name="ObjectShortName">cs</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/via6522/phi2">
+         <obj_property name="ElementShortName">phi2</obj_property>
+         <obj_property name="ObjectShortName">phi2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/via6522/nReset">
+         <obj_property name="ElementShortName">nReset</obj_property>
+         <obj_property name="ObjectShortName">nReset</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/rs">
+         <obj_property name="ElementShortName">rs[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rs[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/via6522/rWb">
+         <obj_property name="ElementShortName">rWb</obj_property>
+         <obj_property name="ObjectShortName">rWb</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/dataIn">
+         <obj_property name="ElementShortName">dataIn[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataIn[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/dataOut">
+         <obj_property name="ElementShortName">dataOut[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataOut[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/paIn">
+         <obj_property name="ElementShortName">paIn[7:0]</obj_property>
+         <obj_property name="ObjectShortName">paIn[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/paOut">
+         <obj_property name="ElementShortName">paOut[7:0]</obj_property>
+         <obj_property name="ObjectShortName">paOut[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/paMask">
+         <obj_property name="ElementShortName">paMask[7:0]</obj_property>
+         <obj_property name="ObjectShortName">paMask[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/pbIn">
+         <obj_property name="ElementShortName">pbIn[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pbIn[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/pbOut">
+         <obj_property name="ElementShortName">pbOut[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pbOut[7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/via6522/pbMask">
+         <obj_property name="ElementShortName">pbMask[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pbMask[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/via6522/nIrq">
+         <obj_property name="ElementShortName">nIrq</obj_property>
+         <obj_property name="ObjectShortName">nIrq</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group357">
+      <obj_property name="label">ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/be6502_tb/dut/prog_rom/ADDR">
+         <obj_property name="ElementShortName">ADDR[14:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR[14:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/prog_rom/DO">
+         <obj_property name="ElementShortName">DO[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DO[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group358">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/ram/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/ram/ADDR">
+         <obj_property name="ElementShortName">ADDR[13:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR[13:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/ram/WE">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/ram/CS">
+         <obj_property name="ElementShortName">CS</obj_property>
+         <obj_property name="ObjectShortName">CS</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/ram/DI">
+         <obj_property name="ElementShortName">DI[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DI[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/ram/DO">
+         <obj_property name="ElementShortName">DO[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DO[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group360">
+      <obj_property name="label">CPU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/RST">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/AD">
+         <obj_property name="ElementShortName">AD[15:0]</obj_property>
+         <obj_property name="ObjectShortName">AD[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/sync">
+         <obj_property name="ElementShortName">sync</obj_property>
+         <obj_property name="ObjectShortName">sync</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/DI">
+         <obj_property name="ElementShortName">DI[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DI[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/DO">
+         <obj_property name="ElementShortName">DO[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DO[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/WE">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/IRQ">
+         <obj_property name="ElementShortName">IRQ</obj_property>
+         <obj_property name="ObjectShortName">IRQ</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/NMI">
+         <obj_property name="ElementShortName">NMI</obj_property>
+         <obj_property name="ObjectShortName">NMI</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/RDY">
+         <obj_property name="ElementShortName">RDY</obj_property>
+         <obj_property name="ObjectShortName">RDY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/debug">
+         <obj_property name="ElementShortName">debug</obj_property>
+         <obj_property name="ObjectShortName">debug</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/ADH">
+         <obj_property name="ElementShortName">ADH[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ADH[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/ADL">
+         <obj_property name="ElementShortName">ADL[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ADL[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/PCH">
+         <obj_property name="ElementShortName">PCH[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PCH[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/PCL">
+         <obj_property name="ElementShortName">PCL[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PCL[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/DB">
+         <obj_property name="ElementShortName">DB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DB[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/ab_op">
+         <obj_property name="ElementShortName">ab_op[11:0]</obj_property>
+         <obj_property name="ObjectShortName">ab_op[11:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/inc_pc">
+         <obj_property name="ElementShortName">inc_pc</obj_property>
+         <obj_property name="ObjectShortName">inc_pc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/ld_pc">
+         <obj_property name="ElementShortName">ld_pc</obj_property>
+         <obj_property name="ObjectShortName">ld_pc</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/ld_ahl">
+         <obj_property name="ElementShortName">ld_ahl</obj_property>
+         <obj_property name="ObjectShortName">ld_ahl</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/abh_op">
+         <obj_property name="ElementShortName">abh_op[3:0]</obj_property>
+         <obj_property name="ObjectShortName">abh_op[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/abl_op">
+         <obj_property name="ElementShortName">abl_op[3:0]</obj_property>
+         <obj_property name="ObjectShortName">abl_op[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/abl_ci">
+         <obj_property name="ElementShortName">abl_ci</obj_property>
+         <obj_property name="ObjectShortName">abl_ci</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/pcl_co">
+         <obj_property name="ElementShortName">pcl_co</obj_property>
+         <obj_property name="ObjectShortName">pcl_co</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/abl_co">
+         <obj_property name="ElementShortName">abl_co</obj_property>
+         <obj_property name="ObjectShortName">abl_co</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/abh_ci">
+         <obj_property name="ElementShortName">abh_ci</obj_property>
+         <obj_property name="ObjectShortName">abh_ci</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/do_op">
+         <obj_property name="ElementShortName">do_op[1:0]</obj_property>
+         <obj_property name="ObjectShortName">do_op[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/alu_op">
+         <obj_property name="ElementShortName">alu_op[8:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_op[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/alu_out">
+         <obj_property name="ElementShortName">alu_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/mask_irq">
+         <obj_property name="ElementShortName">mask_irq</obj_property>
+         <obj_property name="ObjectShortName">mask_irq</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/flag_op">
+         <obj_property name="ElementShortName">flag_op[9:0]</obj_property>
+         <obj_property name="ObjectShortName">flag_op[9:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/cond">
+         <obj_property name="ElementShortName">cond</obj_property>
+         <obj_property name="ObjectShortName">cond</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/B">
+         <obj_property name="ElementShortName">B</obj_property>
+         <obj_property name="ObjectShortName">B</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/P">
+         <obj_property name="ElementShortName">P[7:0]</obj_property>
+         <obj_property name="ObjectShortName">P[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/dut/cpu/D">
+         <obj_property name="ElementShortName">D</obj_property>
+         <obj_property name="ObjectShortName">D</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/reg_op">
+         <obj_property name="ElementShortName">reg_op[6:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_op[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/be6502_tb/dut/cpu/R">
+         <obj_property name="ElementShortName">R[7:0]</obj_property>
+         <obj_property name="ObjectShortName">R[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group356">
+      <obj_property name="label">Board</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/be6502_tb/board_clk">
+         <obj_property name="ElementShortName">board_clk</obj_property>
+         <obj_property name="ObjectShortName">board_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/board_rstn">
+         <obj_property name="ElementShortName">board_rstn</obj_property>
+         <obj_property name="ObjectShortName">board_rstn</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/be6502_tb/test_uart_tx">
+         <obj_property name="ElementShortName">test_uart_tx</obj_property>
+         <obj_property name="ObjectShortName">test_uart_tx</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

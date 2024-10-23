@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../be6502_fpga.ip_user_files/ipstatic" \
+"be6502_tb_func_impl.v" \
+"../../../../../be6502_fpga.srcs/sim_1/new/be6502_tb.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../be6502_fpga.ip_user_files/ipstatic" \
+"../../../../be6502_fpga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../be6502_fpga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../be6502_fpga.srcs/sources_1/new/be6502.v" \
+"../../../../verilog-65C02-microcode-main/generic/abh.v" \
+"../../../../verilog-65C02-microcode-main/generic/abl.v" \
+"../../../../verilog-65C02-microcode-main/generic/alu.v" \
+"../../../../verilog-65C02-microcode-main/generic/cpu.v" \
+"../../../../verilog-65C02-microcode-main/generic/ctl.v" \
+"../../../../verilog-65C02-microcode-main/generic/microcode.v" \
+"../../../../verilog-65C02-microcode-main/generic/regfile.v" \
+"../../../../be6502_fpga.srcs/sources_1/new/prog_rom.v" \
+"../../../../verilog-65C22/6522.v" \
+"../../../../be6502_fpga.srcs/sources_1/new/ram.v" \
+"../../../../gs_uart/uart_top.v" \
+"../../../../gs_uart/uart_rx.v" \
+"../../../../gs_uart/uart_tx.v" \
+"../../../../random/lfsr.v" \
+"../../../../be6502_fpga.srcs/sources_1/new/timer.v" \
+"../../../../be6502_fpga.srcs/sim_1/new/be6502_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

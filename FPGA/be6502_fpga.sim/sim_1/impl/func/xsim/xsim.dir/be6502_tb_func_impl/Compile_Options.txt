@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "secureip" --snapshot "be6502_tb_func_impl" "xil_defaultlib.be6502_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

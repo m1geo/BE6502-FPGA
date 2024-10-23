@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1242826895740830032  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot be6502_tb_func_impl xil_defaultlib.be6502_tb xil_defaultlib.glbl" , 
+    buildDate : "Oct 13 2023" , 
+    buildTime : "20:21:30" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/be6502_tb_func_impl/xsimk\"   \"xsim.dir/be6502_tb_func_impl/obj/xsim_0.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_1.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_2.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_3.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_4.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_5.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_6.lnx64.o\" \"xsim.dir/be6502_tb_func_impl/obj/xsim_7.lnx64.o\" -L\"/tools/Xilinx/Vivado/2023.2/lib/lnx64.o\" -lrdi_simulator_kernel    -L/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/../lib64 -Wl,--disable-new-dtags -Wl,-rpath=/tools/Xilinx/Vivado/2023.2/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/../lib64 -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

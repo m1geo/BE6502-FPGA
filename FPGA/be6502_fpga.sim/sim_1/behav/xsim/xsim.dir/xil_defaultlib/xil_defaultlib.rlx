@@ -1,0 +1,24 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1729356656,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/be6502.v,,clk_wiz_0,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1729356656,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sim_1/new/be6502_tb.v,1729719587,verilog,,,,be6502_tb,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/be6502.v,1729722512,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/abh.v,,be6502,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/prog_rom.v,1729722447,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C22/6522.v,,prog_rom,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/ram.v,1729722078,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/gs_uart/uart_top.v,,ram,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/timer.v,1729719751,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sim_1/new/be6502_tb.v,,timer,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/gs_uart/uart_rx.v,1729360929,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/gs_uart/uart_tx.v,,uart_rx,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/gs_uart/uart_top.v,1729720112,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/gs_uart/uart_rx.v,,gs_uart_top,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/gs_uart/uart_tx.v,1729360938,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/random/lfsr.v,,uart_tx,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/random/lfsr.v,1729203916,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/timer.v,,LFSR,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/abh.v,1680072008,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/abl.v,,abh,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/abl.v,1680072008,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/alu.v,,abl,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/alu.v,1680072008,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/cpu.v,,alu,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/cpu.v,1680072008,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/ctl.v,,cpu,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/ctl.v,1680072008,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/microcode.v,,ctl,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/microcode.v,1729719985,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/regfile.v,,microcode,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C02-microcode-main/generic/regfile.v,1680072008,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/prog_rom.v,,regfile,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
+/home/george/Desktop/BE6502-FPGA/FPGA/verilog-65C22/6522.v,1728942337,verilog,,/home/george/Desktop/BE6502-FPGA/FPGA/be6502_fpga.srcs/sources_1/new/ram.v,,via6522,,,../../../../be6502_fpga.ip_user_files/ipstatic,,,,,
