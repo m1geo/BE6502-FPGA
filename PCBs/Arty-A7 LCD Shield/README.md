@@ -7,3 +7,11 @@ The board is designed to be manufactured by JLCPCB (no affiliation, use who you 
 Gerbers, BoM and CPL are supplied, along with Schematic. I just soldered the few components on by hand.
 
 Of course, you could just wire this all with jumpers in kin with the original concept! :)
+
+# Some Renders
+
+PCB Front:
+![PCB Front|200](/PCBs/Arty-A7%20LCD%20Shield/Arty%20LCD%20Shield%20F.png)
+
+PCB Rear:
+![PCB Rear|200](/PCBs/Arty-A7%20LCD%20Shield/Arty%20LCD%20Shield%20R.png)
